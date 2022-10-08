@@ -18,7 +18,9 @@ pip install tweepy
 ```
 
 
-Here are one testing codes and result.
+Here are some testing codes and result.
+
+Search recent tweets:
 ```python
 client = tweepy.Client(bearer_token)
 
@@ -75,4 +77,28 @@ tweepy é incrível kkkk
 #bolhadev
 1578567909726642177
 2022-10-08 02:08:12.636561 tweepy
+```
+
+Gey my account:
+```
+client = tweepy.Client(bearer_token)
+
+# Get Users
+
+# This endpoint/method returns a variety of information about one or more users
+# specified by the requested IDs or usernames
+
+user_ids = [1408690808128114691]
+
+# By default, only the ID, name, and username fields of each user will be
+# returned
+# Additional fields can be retrieved using the user_fields parameter
+response = client.get_users(ids=user_ids, user_fields=["profile_image_url"])
+
+for user in response.data:
+    print(user.username, user.profile_image_url)
+```
+Result, that is my user name and my portrait:
+```
+aCatotea https://pbs.twimg.com/profile_images/1408691247129063432/Obl2DgFq_normal.jpg
 ```
