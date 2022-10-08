@@ -13,6 +13,7 @@ Then I use python to get access to twitter API
 download library using 
 ```bash
 pip install requests
+pip install tweepy
 ```
 and Copy your my key and set in your environment variable by running: 
 ```bash
