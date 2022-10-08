@@ -4,7 +4,7 @@ import tweepy
 # of the Keys and Tokens tab of your app, under the
 # Twitter Developer Portal Projects & Apps page at
 # https://developer.twitter.com/en/portal/projects-and-apps
-bearer_token = "AAAAAAAAAAAAAAAAAAAAAKi4hwEAAAAASOZYxep%cqa24AEsBUWJ10H4Mda78Y5V5c2O5RMR0DOCSBow8pwEVJBcK"
+bearer_token = "AAAAAAAAAAAAAAAAAAAAAKi4hwEAAAAASOZYxep%cqa24AEsBUWJ10H4Mda78Y5V5c2O5RMR0DOCSBow8pwEVJBcK" # not real here
 
 
 client = tweepy.Client(bearer_token)
