@@ -14,7 +14,7 @@ https://github.com/twitterdev/Twitter-API-v2-sample-code
 pip install requests
 pip install tweepy
 ```
-Tweepy is a very useful python library for tweet API and its document: https://docs.tweepy.org/en/stable/examples.html
+Tweepy is a very useful python library for tweet API and here is its document: https://docs.tweepy.org/en/stable/examples.html
 
 
 ## Test
