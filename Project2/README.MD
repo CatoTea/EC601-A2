@@ -2,22 +2,23 @@
 EC601 A2 Haochuan Hu
 huhc@bu.edu
 
-
+## Start
 1. sign up and get key in https://developer.twitter.com/en
 
 2. download the sample codes
 Twitter-API-v2-sample-code-main is some sample codes from twitter official:
 https://github.com/twitterdev/Twitter-API-v2-sample-code
 
-and I found a really useful library and its document: https://docs.tweepy.org/en/stable/examples.html
-Then I use python to get access to twitter API
-download library using 
+3. download library using 
 ```bash
 pip install requests
 pip install tweepy
 ```
+I found a really useful library and its document: https://docs.tweepy.org/en/stable/examples.html
+Then I use python to get access to twitter API
 
 
+## Test
 Here are some testing codes and result. (codes in TestAPI.py)
 
 Search recent tweets:
