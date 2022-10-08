@@ -21,7 +21,7 @@ Then I use python to get access to twitter API
 ## Test
 Here are some testing codes and result. (codes in TestAPI.py)
 
-Search recent tweets:
+1. Search recent tweets:
 ```python
 client = tweepy.Client(bearer_token)
 
@@ -80,7 +80,7 @@ tweepy é incrível kkkk
 2022-10-08 02:08:12.636561 tweepy
 ```
 
-Gey my account:
+2. Gey my account:
 ```
 client = tweepy.Client(bearer_token)
 
