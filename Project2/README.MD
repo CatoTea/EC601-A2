@@ -18,7 +18,7 @@ pip install tweepy
 ```
 
 
-Here are some testing codes and result.
+Here are some testing codes and result. (codes in TestAPI.py)
 
 Search recent tweets:
 ```python
