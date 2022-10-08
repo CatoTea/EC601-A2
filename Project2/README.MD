@@ -14,8 +14,7 @@ https://github.com/twitterdev/Twitter-API-v2-sample-code
 pip install requests
 pip install tweepy
 ```
-I found a really useful library and its document: https://docs.tweepy.org/en/stable/examples.html
-Then I use python to get access to twitter API
+Tweepy is a very useful python library for tweet API and its document: https://docs.tweepy.org/en/stable/examples.html
 
 
 ## Test
